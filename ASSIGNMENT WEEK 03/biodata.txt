@@ -1,0 +1,5 @@
+Name: Mudassir Abrar
+CNIC: 1234567890
+Age: 20
+Salary: 5000000
+Contact Number: 1234567890
