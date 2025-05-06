@@ -1,0 +1,46 @@
+[project]
+name = "assignment-05"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "MUDASSIR ABRAR", email = "161126723+MudassarAbrar@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "kaggle>=1.7.4.2",
+    "pandas>=2.2.3",
+    "python-dotenv>=1.1.0",
+]
+
+[project.scripts]
+assignment-05 = "assignment_05:main"
+download = "assignment_05.data.download:main"
+extract = "assignment_05.data.extract:main"
+task01 = "assignment_05.PART_A.TASK_1:main"
+task02 = "assignment_05.PART_A.TASK_2:main"
+task03 = "assignment_05.PART_A.TASK_3:main"
+task04 = "assignment_05.PART_A.TASK_4:main"
+task05 = "assignment_05.PART_A.TASK_5:main"
+task06 = "assignment_05.PART_A.TASK_6:main"
+task07 = "assignment_05.PART_A.TASK_7:main"
+task08 = "assignment_05.PART_A.TASK_8:main"
+task09 = "assignment_05.PART_A.TASK_9:main"
+task10 = "assignment_05.PART_A.TASK_10:main"
+task11 = "assignment_05.PART_A.TASK_11:main"
+downloadB = "assignment_05.dataB.downloadB:main"
+extractB = "assignment_05.dataB.extractB:main"
+
+task1 = "assignment_05.PART_B.TASK_01:main"
+task2 = "assignment_05.PART_B.TASK_02:main"
+task3 = "assignment_05.PART_B.TASK_03:main"
+task4 = "assignment_05.PART_B.TASK_04:main"
+task5 = "assignment_05.PART_B.TASK_05:main"
+task6 = "assignment_05.PART_B.TASK_06:main"
+
+
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
